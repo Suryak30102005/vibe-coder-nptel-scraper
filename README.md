@@ -26,17 +26,9 @@ ChromeDriver (compatible with your Chrome version)
 
 Python Packages
 Install dependencies using pip:
-
-bash
-Copy
-Edit
 pip install selenium python-dotenv
 🔐 Environment Variables
 Create a .env file in the same directory with your Microsoft-linked Swayam credentials:
-
-dotenv
-Copy
-Edit
 SWAYAM_EMAIL=your_email@example.com
 SWAYAM_PASSWORD=your_password
 ⚠️ Do not share your .env file or commit it to version control!
@@ -49,23 +41,14 @@ Ensure ChromeDriver is installed and available in your system PATH.
 Add your credentials to the .env file.
 
 Run the script:
-
-bash
-Copy
-Edit
 python nptel_scraper.py
+
 Follow the prompts:
-
 Choose the week you want to work on.
-
 Enter your answers as comma-separated values (e.g., 1,2,3,1,4).
-
 🧪 Example Walkthrough
 User sees:
 
-yaml
-Copy
-Edit
 Detected Weeks:
 Week 0: Week 1 - Introduction
 Week 1: Week 2 - Advanced Topics
